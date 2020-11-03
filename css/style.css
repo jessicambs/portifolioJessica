@@ -1,0 +1,121 @@
+/*seletor {
+    propriedade: valor;
+} */
+* {
+    box-sizing: border-box;
+    margin: 0
+     
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.banner {
+    background: url(../img/bannerDany.png.png) center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    padding-top: 16rem;
+    color: white;
+
+
+}
+
+.banner_titulo {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.banner_descricao {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.botao {
+    border-radius: 2rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+
+}
+
+.botao-branco {
+    background-color: white;
+    color: #7E459B;
+
+
+}
+
+.botao-roxo {
+    background-color: #7E459B;
+    color: white;
+
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 2rem;
+
+}
+
+
+.sobre{ 
+    margin: 0
+
+
+}
+
+
+.sobre_titulo {
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.sobre_descricao, .sobre_habilidades {
+    width: 40%;
+    display: inline-block;
+
+}
+
+.sobre_habilidades {
+    vertical-align: top;
+    margin-left: 3rem;
+}
+
+.footer {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.redes-sociais_link {
+    display: inline-block;
+    background-color: #7E459B;
+    width: 20%;
+    height: 180px;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    color: white;
+
+}
+
+.redes-sociais_img {
+    height: 80%;
+}
+
+.curriculo {
+    color: white
+}
+
