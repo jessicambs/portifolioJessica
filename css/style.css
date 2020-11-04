@@ -101,6 +101,7 @@ body {
 }
 
 .redes-sociais_link {
+    position: relative;
     display: inline-block;
     background-color: #7E459B;
     width: 20%;
@@ -118,4 +119,5 @@ body {
 .curriculo {
     color: white
 }
+
 
