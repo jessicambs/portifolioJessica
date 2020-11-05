@@ -7,28 +7,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Minha primeira página</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- BANNER -->
+   
+
     <header class="banner">
             <h1 class="banner_titulo">
                     Hello, I'm Jéssica Silva! 
                 </h1>
                 <p class="banner_descricao">
-                    Here's who I am & what I do
-                    
+                     Here's who I am & what I do     
                 </p>
-                <button class="botao botao-branco">
-                    About me!
-                </button>
+                <a href="#about" class="botao botao-branco">
+                    About
+                </a>
+        
     </header>
 
     <!-- seção principal -->
-    <section class="container">
+    <section class="container" id="about">
         <h2 class= "sobre_titulo">
             Let me introduce myself a bit to you
         </h2>
@@ -42,29 +43,30 @@
                 <p class= "sobre_descricao_texto">
                   I am a biochemistry engineer from Brazil with experience in the Quality Assurance of software. Recently, I did my master's degree in Spain at an excellent level after a scholarship for the bests students in Latin America by Fundación Carolina. For my master thesis, I  developed, within collaborations, an algorithm to analyze bulk RNA-seq data from Celiac disease.
                 </p>
+                
+            </div>
+            <div >
                 <button class="botao botao-roxo">
                     
-                    <a href="pdfcurriculo/Currículo Jéssica Silva.pdf" target="_blank" class="curriculo">
+                    <a href="JessicaMoreira_102020_eng.pdf" target="_blank" class="curriculo">     
+                    Resumen
+                    </a>
+                </button>
+                <button class="botao botao-roxo">
+    
+                    <a href="pdfcurriculo/Currículo Jéssica Silva.pdf" download="me.jpeg" target="_blank" class="curriculo">
                             
                     Curriculum Vitae
                     </a>
+                    
                 </button>
-            </div>
-            <div class="sobre_habilidades">
-                <h3 class="sobre_habilidades_titulo">
-                    Minhas habilidades
-                </h3>
-                <ul class="sobre_habilidades_lista">
-                    <li classe="sobre_habilidades_lista_item"> Lógica de Programação</li>
-                    <li classe="sobre_habilidades_lista_item"> Scrum</li>
-                    <li classe="sobre_habilidades_lista_item"> Inglês</li>
-                    <li classe="sobre_habilidades_lista_item"> Espanhol</li>
-                </ul>
-
+    
             </div>
         </div>
+           
     </section>
 
+    
 
     <!-- redes sociais-->
     <section class="footer">
@@ -85,9 +87,7 @@
         
                     </a>
                     <a href="https://github.com/jessicambs" target="_blank" class="redes-sociais_link">
-                            <img src="img/github.png" alt="Ícone do Github" class="redes-sociais_img">
-                            
-            
+                            <img src="img/github.png" alt="Ícone do Github" class="redes-sociais_img">  
                         </a>
         </div>
     </section>
